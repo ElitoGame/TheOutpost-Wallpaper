@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.0.0.0",
+  "Title": "Elito's Cozy Place",
+  "Thumbnail": "rsc/cozy_place.001.png",
+  "Preview": null,
+  "Desc": "A cozy futuristic place!",
+  "Author": "ElitoGame",
+  "License": "MIT",
+  "Contact": "Discord at ElitoGame#2411 or GitHub https://github.com/ElitoGame",
+  "Type": 2,
+  "FileName": "index.html",
+  "Arguments": "--system-information",
+  "IsAbsolutePath": false
+}

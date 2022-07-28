@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Spartan', sans-serif;
+    color: aliceblue;
+}
+
+.reload {
+    z-index: 9999;
+}
+
+.previous {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../rsc/cozy_place.001.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: absolute;
+}
+
+.dev {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../rsc/Screenshot_1017.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    position: absolute;
+}
+
+.room {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../rsc/Project_Outpost.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+    position: absolute;
+}
+
+.hologram {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
+.system {
+    position: absolute;
+    z-index: 5;
+    top: 48%;
+    left: -127px;
+    transform: translate(0, -50%);
+}
+
+.audio {
+    z-index: 2;
+    position: absolute;
+    top: 61%;
+}
+
+.background {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../rsc/Screenshot20220122-17041800000.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+#i {
+    display: none;
+}
+
+#drag-wrapper {
+    z-index: 2;
+    position: absolute;
+    top: 61%;
+    // background-image: url("../rsc/Hologram_transparent.png");
+    // background-size: cover;
+    // background-position: right;
+    // background-repeat: no-repeat;
+    
+
+    .drag-handle {
+        position: absolute;
+        width:  2em;
+        height: 2em;
+        margin: -1em;
+        border-radius: 100%;
+        box-sizing: border-box;
+        
+        background: tomato;
+        border: 1px solid #444;
+        opacity: .7;
+        cursor: move;
+        
+        &:nth-of-type(2) { background: limegreen; }
+        &:nth-of-type(3) { background: #00ffff; }
+        &:nth-of-type(4) { background: dodgerblue; }
+        &:nth-of-type(5) { background: gold; }
+        
+        &::after {
+            //content: attr(data-corner);
+        }
+    }
+}
+
+#dc {
+    display: none;
+}
+
+#dac {
+    display: none;
+}
+
+#output {
+    // background-color: #00ffff;
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 500px;
+    height: 700px;
+    z-index: 20;
+}
+
+.screen * {
+    position: absolute;
+    z-index: 30;
+    height: 200px;
+    width: 250px;
+    // opacity: 0.5;
+}
+
+#s1c {
+    top: 41%;
+    right: 900px;
+}
+#s2c {
+    top: 41%;
+    right: 680px;
+} 

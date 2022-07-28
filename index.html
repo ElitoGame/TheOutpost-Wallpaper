@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet"> 
+    <!--Import main.css-->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Elito's Wallpaper</title>
+</head>
+<body>
+    <!-- <div class="previous"></div> -->
+    <!-- <div class="dev"></div> -->
+    <div class="room"></div>
+    
+    <div class="hologram">
+        <canvas class="system" id="c" width="916.833px" height="410px"></canvas>
+        <div id="drag-wrapper">
+            <canvas class="audio" id="ac" width="1820px" height="350px"></canvas>
+
+            <!-- <div class="drag-handle" data-corner="0"></div>
+            <div class="drag-handle" data-corner="1"></div>
+            <div class="drag-handle" data-corner="2"></div>
+            <div class="drag-handle" data-corner="3"></div>
+            <div class="drag-handle" data-corner="4"></div> -->
+        </div>
+        <canvas id="dc" width="916px" height="410px"></canvas>
+        <canvas id="dac" width="1820px" height="350px"></canvas>
+        <div class="screen">
+            <canvas id="s1c"></canvas>
+            <canvas id="s2c"></canvas>
+        </div>
+    </div>
+    <div class="background"></div>
+    <div id="output">
+        <!-- <button id="reload" onclick="window.location.reload()">Reload</button>
+            <h1>System Information:</h1> -->
+        <div id="debug">
+            
+            <div id="currentTrack"></div>
+
+        </div>
+        <p id="sys-info"></p>
+        <p id="playing_info"></p>
+        <p id="audio_info"></p>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

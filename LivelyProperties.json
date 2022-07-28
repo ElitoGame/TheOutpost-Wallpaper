@@ -1,0 +1,73 @@
+{
+    "barCount": {
+        "max": 85,
+        "min": 25,
+        "tick": 25,
+        "text": "Bar count",
+        "type": "slider",
+        "value": 72
+    },
+    "barCompensation": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "text": "Bass compensation",
+        "type": "slider",
+        "value": 10
+    },
+    "offset": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "text": "Middle peak offset",
+        "type": "slider",
+        "value": 20
+    },
+    "padding": {
+        "max": 20,
+        "min": 0,
+        "tick": 25,
+        "text": "Bar padding",
+        "type": "slider",
+        "value": 4
+    },
+    "barWidth": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "text": "Bar width",
+        "type": "slider",
+        "value": 50
+    },
+    "barColor": {
+        "text": "Bar color",
+        "type": "color",
+        "value": "#F2FDFF"
+    },
+    "barOpacity": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "text": "Bar opacity",
+        "type": "slider",
+        "value": 80
+    },
+    "hasShadow": {
+        "type": "checkbox",
+        "value": true,
+        "text": "Has Shadow"
+    },
+    "shadowBarColor": {
+        "text": "Shadow Bar color",
+        "type": "color",
+        "value": "#00FFFA"
+    },
+    "shadowBarOpacity": {
+        "max": 100,
+        "min": 0,
+        "tick": 25,
+        "text": "Shadow Bar opacity",
+        "type": "slider",
+        "value": 30
+    }
+}

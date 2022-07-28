@@ -1,0 +1,24 @@
+{
+  "name": "livelywallpaper",
+  "version": "1.0.0",
+  "description": "A Wallpaper that integrates into the Lively App",
+  "main": "js/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wallpaper"
+  ],
+  "author": "ElitoGame",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-eslint": "^6.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify-es": "^3.0.0",
+    "sass": "^1.48.0"
+  }
+}
